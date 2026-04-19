@@ -1,0 +1,16 @@
+body {
+    background: #020617;
+    background-image: radial-gradient(circle at 50% 50%, #0f172a 0%, #020617 100%);
+    color: white; font-family: 'Times New Roman', serif; min-height: 100vh;
+}
+.navbar {
+    background: rgba(15, 23, 42, 0.9) !important;
+    border-bottom: 3px solid #00a3ff; padding: 20px 0;
+}
+.navbar-brand { font-size: 2rem !important; letter-spacing: 3px; font-weight: bold; }
+.glass-card {
+    background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; padding: 30px;
+}
+.btn-primary { background: #00a3ff; border: none; padding: 10px 25px; border-radius: 30px; }
+.footer { margin-top: auto; padding: 20px; background: rgba(0,0,0,0.3); width: 100%; text-align: center; }
